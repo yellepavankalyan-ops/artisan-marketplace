@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # artisan-marketplace
 
 An e-commerce platform connecting rural Indian artisans directly to buyers.
@@ -41,3 +42,6 @@ npm run dev
 
 See [DEPLOYMENT.md](./DEPLOYMENT.md) for step-by-step instructions to deploy
 the backend to Render and the frontend to Vercel.
+=======
+# artisan-marketplace
+>>>>>>> 95e8a1636217346ccad5ce163649875cc5b7bc22
