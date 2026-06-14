@@ -24,18 +24,7 @@ const extraOrigins = (process.env.FRONTEND_URL || "")
 
 app.use(
   cors({
-    origin: (origin, callback) => {
-      if (
-        !origin ||
-        origin === "http://localhost:5173" ||
-        /^https:\/\/.*\.vercel\.app$/.test(origin) ||
-        extraOrigins.includes(origin)
-      ) {
-        callback(null, true);
-      } else {
-        callback(new Error("Not allowed by CORS"));
-      }
-    },
+    origin: true,
     credentials: true,
   })
 );
